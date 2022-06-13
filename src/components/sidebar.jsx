@@ -1,7 +1,7 @@
 import React from "react";
 import { RiDashboardLine } from "react-icons/ri";
 import { HiOutlineArrowRight } from "react-icons/hi";
-import { AiOutlineLike } from "react-icons/ai";
+import { AiFillLike } from "react-icons/ai";
 
 const Sidebar = () => {
   return (
@@ -66,7 +66,7 @@ const Sidebar = () => {
       <div className="sidebar__bottom">
         <div className="sidebar__bottom__item">
           <div className="like-icon">
-            <AiOutlineLike />
+            <AiFillLike />
           </div>
           <span>
             Upgrade to <b>Pro</b> for get all featurs

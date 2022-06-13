@@ -92,6 +92,7 @@ a:hover {
 .sidebar__body__item {
     margin-bottom: 5px;
 }
+
 .sidebar__bottom__item .like-icon {
     position: absolute;
     top: -60px;
@@ -112,7 +113,7 @@ a:hover {
     padding-top: 60px;
 }
 
-.sidebar__bottom__item  span {
+.sidebar__bottom__item span {
     font-size: 14px;
     display: block;
 }
@@ -125,6 +126,7 @@ a:hover {
     align-items: center;
     justify-content: space-between;
 }
+
 /* End Sidebar Style */
 
 /* Layout Top Header */
@@ -162,7 +164,13 @@ a:hover {
     margin-right: 11px;
 }
 
-.alth-auth-name {display: flex;align-items: center;column-gap: 10px;font-size: 15px;font-weight: 500;}
+.alth-auth-name {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
 
 .alth-auth-name svg {
     font-size: 20px;
@@ -220,4 +228,122 @@ a:hover {
     font-size: 28px;
     font-weight: 500;
 }
+
 /* End Layout Top Header */
+
+/* Start Document page body Style */
+.documents-page-layout {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.documents-page-layout__right {
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.documents-page-layout__left {
+    width: calc(100% - 300px);
+}
+
+.my-files-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.my-files-header button {
+    background: #55aefe;
+    color: #fff;
+    padding: 16px 16px;
+    border-radius: 14px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.my-files-header button svg {
+    margin-right: 7px;
+    font-size: 18px;
+}
+
+.my-files-header>h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.my-files-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.my-files-body .file-box {
+    background: #fff;
+    width: 100%;
+    border-radius: 14px;
+    padding: 16px;
+}
+
+.my-files-body .file-box .file-box__icon svg {
+    font-size: 20px;
+}
+
+.my-files-body .file-box .file-box__icon {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.file-box__title h6 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.file-box__bottom {
+    margin-top: 20px;
+}
+
+.file-box__bottom .file-box__bar {
+    height: 4px;
+    width: 100%;
+    background: #cccccc52;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.file-box__bottom .file-box__bar span {
+    background: #333;
+    display: block;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.file-box__info span.files-count {
+    color: gray;
+}
+
+.file-box__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.file-box__info span {
+    font-size: 14px;
+}
+
+.file-box__info span.files-size {
+    font-weight: 500;
+}
+
+/* End Document page body Style */

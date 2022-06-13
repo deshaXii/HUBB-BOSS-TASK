@@ -1,0 +1,128 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* End Global Style */
+
+
+
+
+
+
+/* Start Header Style */
+.sidebar__header .sidebar__header__logo img {
+    width: 100px;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    padding: 40px 20px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-layout__body {
+    width: calc(100% - 250px);
+    background: #fafafc;
+    padding: 40px 20px;
+}
+
+.sidebar__header {
+    margin-bottom: 30px;
+}
+
+.sidebar__body .sidebar__body__item a {
+    display: flex;
+    border-radius: 12px;
+    align-items: center;
+    font-size: 15px;
+    color: #727272;
+    font-weight: 500;
+}
+
+.sidebar__body .sidebar__body__item a svg {
+    padding: 12px 8px;
+    box-sizing: unset;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    font-size: 18px;
+}
+
+.sidebar__body .sidebar__body__item.active a span {
+    padding-left: 5px;
+    color: #fff;
+}
+
+.sidebar__body .sidebar__body__item.active a svg {
+    background: #55aefe;
+    color: #fff;
+}
+
+.sidebar__body .sidebar__body__item.active a {
+    background: #409bed;
+}
+
+.sidebar__body .sidebar__body__item a span {
+    transition: all .3s linear;
+}
+
+.sidebar__body__item {
+    margin-bottom: 5px;
+}
+.sidebar__bottom__item .like-icon {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sidebar__bottom__item .like-icon svg {
+    font-size: 110px;
+    color: #409bed;
+}
+
+.sidebar__bottom__item {
+    background: #d2dde9;
+    border-radius: 16px;
+    padding: 20px;
+    position: relative;
+    padding-top: 60px;
+}
+
+.sidebar__bottom__item  span {
+    font-size: 14px;
+    display: block;
+}
+
+.sidebar__bottom__item a {
+    color: #409bed;
+    font-weight: 600;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* End Sidebar Style */

@@ -12,6 +12,7 @@ const Default = ({ children }) => {
           <div className="alth-page-title">
             <h1>Documents</h1>
           </div>
+          <div className="alth-left">
           <div className="alth-search">
             <form>
               <input type="text" placeholder="Search" />
@@ -28,6 +29,7 @@ const Default = ({ children }) => {
               <span>Angelina Joli</span>
               <MdOutlineKeyboardArrowDown />
             </div>
+          </div>
           </div>
         </div>
         {children}

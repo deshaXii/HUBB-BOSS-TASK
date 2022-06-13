@@ -47,7 +47,7 @@ a:hover {
 .app-layout__body {
     width: calc(100% - 250px);
     background: #fafafc;
-    padding: 40px 20px;
+    padding: 40px 30px;
 }
 
 .sidebar__header {
@@ -103,6 +103,7 @@ a:hover {
     font-size: 110px;
     color: #409bed;
 }
+
 .sidebar__bottom__item {
     background: #d2dde9;
     border-radius: 16px;
@@ -125,3 +126,98 @@ a:hover {
     justify-content: space-between;
 }
 /* End Sidebar Style */
+
+/* Layout Top Header */
+.app-layout-top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.app-layout-top-header .alth-auth-area .alth-auth-img img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+.alth-left {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.alth-auth-area {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 6px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.alth-auth-img {
+    display: flex;
+    margin-right: 11px;
+}
+
+.alth-auth-name {display: flex;align-items: center;column-gap: 10px;font-size: 15px;font-weight: 500;}
+
+.alth-auth-name svg {
+    font-size: 20px;
+    color: gray;
+}
+
+.alth-auth-area:hover {
+    box-shadow: 0px 0px 8px #3333330d;
+}
+
+.alth-search {
+    background: #fff;
+    padding: 6px 12px;
+    border-radius: 12px;
+}
+
+.alth-search form input {
+    height: 40px;
+    min-width: 350px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #5c5c5c;
+    font-weight: 500;
+}
+
+.alth-search form input::placeholder {
+    color: #c9c9c9;
+}
+
+.alth-search form button {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 12px;
+    border: none;
+    background: #409bed;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.alth-search form button svg {
+    font-size: 18px;
+}
+
+.alth-search form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.alth-page-title h1 {
+    margin-bottom: 0;
+    font-size: 28px;
+    font-weight: 500;
+}
+/* End Layout Top Header */
